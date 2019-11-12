@@ -1,0 +1,64 @@
+div#timeline div.post {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  background: #fff;
+  font-size: 14px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid #e6ecf0;
+}
+
+div#timeline div.post img {
+  width: 32px;
+  height: 32px;
+  height: 100%;
+  border-radius: 50%;
+  background: #d0d5d9;
+}
+
+div#timeline div.post .infopost {
+  display: flex;
+  align-items: center;
+}
+
+div#timeline div.post .infopost .namedata {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+
+div#timeline div.post .infopost .namedata strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+div#timeline div.post .infopost .namedata h1 {
+  font-size: 12px;
+  color: #1f2226;
+  font-weight: normal;
+}
+
+div#timeline div.post .conteudopost {
+  font-size: 14px;
+  color: #1f2226;
+  padding: 10px;
+  border-bottom: 2px solid #e6ecf0;
+}
+
+div#timeline div.post .comments {
+  display: flex;
+  padding: 10px;
+}
+
+div#timeline div.post .comments .conteudocomment {
+  border-radius: 15px;
+  background: #EEEEEE;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+div#timeline div.post .comments .conteudocomment strong {
+  margin-right: 3px;
+}
