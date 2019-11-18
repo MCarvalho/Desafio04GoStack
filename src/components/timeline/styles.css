@@ -11,9 +11,8 @@ div#timeline div.post {
 }
 
 div#timeline div.post img {
-  width: 32px;
-  height: 32px;
-  height: 100%;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
   background: #d0d5d9;
 }
